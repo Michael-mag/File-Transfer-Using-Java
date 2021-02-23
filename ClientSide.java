@@ -36,7 +36,6 @@ public class ClientSide {
             
             //send desired filename
             out.println(fileName);
-            //outputFile.write(new String("catalin").getBytes());
             int code = input.read();
             if (code == 1) 
             {   
